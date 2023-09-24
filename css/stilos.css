@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+
+
+.mi-boton {
+    padding: 10px 40px; /* Espaciado interno */
+    font-size: 14px;
+
+    background-color: #0078D4; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+   
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+   
+    position: absolute;
+    
+    bottom: 0; /* Lo coloca en la parte inferior */
+    left: 0; /* Lo coloca en la parte izquierda */
+    
+    margin: 40px;
+}
+
+/* Cambia el color de fondo al pasar el cursor por encima */
+.mi-boton:hover {
+    background-color: #005EA6;
+}
