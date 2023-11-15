@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth; /*controlar el movimiento del scroll*/
+}
+
 /* Estilo del scroll vertical */
 ::-webkit-scrollbar {
     width: 10px; /* Ancho del scroll */

@@ -4,21 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/stilos.css">
-    <link rel="stylesheet" type="text/css" href="/css/scroll.css">
-    <link rel="stylesheet" type="text/css" href="/css/imagenes.css">
+    <link rel="stylesheet" type="text/css" href="/css/pagina/scroll.css">
+    <link rel="stylesheet" type="text/css" href="/css/pagina/imagenes.css">
     <link rel="stylesheet" type="text/css" href="/css/texto.css">
+    <link rel="stylesheet" type="text/css" href="/css/menu_principal/menu_barra.css">
+    <link rel="stylesheet" type="text/css" href="/css/contacto/card.css">
+    <link rel="stylesheet" type="text/css" href="/css/conocenos/parrafo.css">
+
+    <link rel="stylesheet" type="text/css" href="/css/pedidos/card-pizza.css">
+    <link rel="stylesheet" type="text/css" href="/css/contacto/cont-grid.css">
+
     <title>Pizzeria</title>
 </head>
 <body>
+    <div class="menu_barra">
+        <header>
+           
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#pedidos">Pedidos</a></li>
+                    <li><a href="/views/menu.html">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
     <div class="cont">
         <img src="/img/pizza.jpg" alt="">
         <h1 class="texto">EL 90% DE LOS CLIENTES <br> FREELANER WITH SETTER <br> REVISIONES</h1>
         <button class="mi-boton">Aceptar</button>
     </div>
-    <div class="cont">
-        <img src="/img/pizza_2.jpg" alt="">
-        <h1 class="texto">EL 90% DE LOS CLIENTES <br> FREELANER WITH SETTER <br> REVISIONES</h1>
-        <button class="mi-boton">Aceptar</button>
+    
+    <div class ="cont"  id="pedidos">
+        <h1 style="color: aliceblue;">Selecciona tu pizza</h1>
+
+        <div class="card-pizza">
+            <h3 id="titulo">nombre pizza</h3>
+            <h3 id="descripcion">boton</h3>
+        </div>
+        <div class="card-pizza">
+            <h3 id="titulo">nombre pizza</h3>
+            <h3 id="descripcion">boton</h3>
+        </div>
     </div>
+
+    <div class ="cont">
+        <p class="descripcion">En el corazón de cada pizza que preparamos, encontrarás la esencia 
+            de una tradición que se remonta a generaciones. 
+            Nuestra historia comienza con el amor por la buena comida y el deseo de 
+            compartir momentos especiales contigo.
+            
+            Imagina un lugar donde cada ingrediente es seleccionado con 
+            cuidado, donde la masa se amasa con dedicación y donde cada
+             pizza se hornea con el arte de la perfección. Esto es lo que  ofrecemos 
+            en nuestra pizzería: 
+            una experiencia culinaria única que va más allá de la simple comida.</p>
+    </div>
+
+
+    <div class ="cont" id="contacto">
+
+        <div class="cont-grid"> 
+            <h2 style="color: beige">Contactanos</h2>
+            <div class="card">
+                <h3 id="titulo">Correo</h3>
+                <h3 id="descripcion">pizza@info.com</h3>
+            </div>
+            <div class="card">
+                <h3 id="titulo">Correo</h3>
+                <h3 id="descripcion">pizza@info.com</h3>
+            </div>
+            <div class="card">
+                <h3 id="titulo">Punto Fisico</h3>
+                <h3 id="descripcion">14 New York los Angeles</h3>
+            </div>
+        </div>
+    </div>
+  
 </body>
 </html>
