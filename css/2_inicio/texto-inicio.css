@@ -2,7 +2,6 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    
 }
 
 
@@ -14,7 +13,7 @@ body, html {
     color: #fff; /* Color del texto del botón */
    
     border: none; /* Sin borde */
-    border-radius: 5px; /* Bordes redondeados */
+    border-radius: 6px; /* Bordes redondeados */
     cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
    
     position: absolute;
