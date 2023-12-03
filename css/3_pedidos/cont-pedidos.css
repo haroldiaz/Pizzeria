@@ -8,29 +8,34 @@
 }
 
 .titulo{
-    font-size: 20px;
+    padding: 10px;
+    font-size: 26px;
     text-align: center;
-    border: 1px solid rgb(0, 0, 0);
+    /*border: 1px solid rgb(255, 255, 255);*/
 }
 
 
 .contenedor-pedidos
 {
-       
-    padding-top:100px;
+    margin: 0%;
+    padding: 0%;
+    padding-top:50px;
     display: grid;
     grid-template-columns: repeat(4, 40px); /* Tres columnas de igual tamaño */
     grid-template-rows: repeat(4, 100px);/* Dos filas de 100 píxeles de alto cada una */
     grid-gap: 40px;
-    background-color: rgba(252, 252, 252, 0);
+   
     color: #ffffff;
-    border: 1px solid rgb(255, 255, 255);
-    height: 200px; 
+    
+    height: 300px; 
 
     display: flex;
     justify-content: center;
     text-align: center;
     position: relative;
+
+
+    /*border: 1px solid rgb(255, 255, 255);*/
        
 }
 
@@ -66,6 +71,7 @@
     /*text-align: center;*/
 }
 
+
 .img-pizza
 {
     justify-content: center;
@@ -74,6 +80,15 @@
     width: 70%;
     /*border: 1px solid rgb(0, 0, 0)*/
 }
+
+.card-pizza{
+    
+    background-color: white;
+    width: 160px;
+    height: 240px;
+    border-radius: 8px;
+}
+
 
 .card-pizza #titulo
 {
@@ -95,10 +110,14 @@
     cursor: pointer;
     background-color: #005EA6;
     color: white;
-    border: 1px solid rgb(0, 0, 0)
+    /*border: 1px solid rgb(0, 0, 0)*/
 }
 
 /* Cambia el color de fondo al pasar el cursor por encima */
 .card-pizza #boton:hover {
     background-color: #04497e;
 }
+
+
+
+

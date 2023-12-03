@@ -1,4 +1,14 @@
 
+.cont-contacto
+{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(0, 0, 0);
+    height: 500px;
+    width: 100%;
+
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(2, 28%); /* Tres columnas de igual tamaño */
@@ -12,7 +22,7 @@
     height: 300px;
     padding: 10px;
     margin-top: 10px;
-    border: 1px solid rgb(255, 255, 255)
+    /*border: 1px solid rgb(255, 255, 255)*/
 }
 
 .box {
@@ -22,21 +32,24 @@
     border-radius: 5px;
     padding: 20px;
     font-size: 12px;
-    border: 1px solid rgb(255, 255, 255)
-    /*text-align: center;*/
+    /*border: 1px solid rgb(255, 255, 255)*/
+   
 }
 
-#contacto{
+.cont-contacto #contacto{
 
-    margin-top: 20px;
-    padding: 20px;
+    margin: 0%;
+    padding: 40px;
     text-align: center;
     font-size: 22px;
-    border: 1px solid rgb(255, 255, 255)
+    /*border: 1px solid rgb(255, 255, 255)*/
 }
 
 
 .box #titulo{
+    margin: 0%;
+    padding: 0%;
     font-size: 16px;
-    border: 1px solid black
+    /*border: 1px solid black*/
 }
+
